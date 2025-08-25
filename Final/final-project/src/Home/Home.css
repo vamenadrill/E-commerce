@@ -1,4 +1,3 @@
-/* === Page Container === */
 .home-page {
   min-height: 100vh;
   display: flex;
@@ -10,7 +9,6 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* === Animated Space Background === */
 .space-bg {
   position: absolute;
   top: 0;
@@ -23,8 +21,6 @@
   z-index: 0;
   overflow: hidden;
 }
-
-/* === Stars Layer === */
 .space-bg::before {
   content: "";
   position: absolute;
@@ -57,7 +53,6 @@
   }
 }
 
-/* === Welcome Card === */
 .welcome-card {
   background: rgba(15, 15, 25, 0.7);
   backdrop-filter: blur(18px);
@@ -77,7 +72,6 @@
   box-shadow: 0 40px 90px rgba(127, 90, 240, 0.4);
 }
 
-/* === Headings === */
 .main-heading {
   font-size: 3.4rem;
   color: #ffffff;
@@ -91,7 +85,6 @@
   text-shadow: 0 0 14px #7f5af0, 0 0 26px #7f5af0;
 }
 
-/* === Subheading === */
 .subheading {
   font-size: 1.45rem;
   color: #dddddd;
@@ -110,7 +103,6 @@
   font-size: 1.4rem;
 }
 
-/* === Shop Button === */
 .shop-button {
   background: linear-gradient(135deg, #7f5af0, #2cb67d);
   color: #fff;
@@ -131,7 +123,6 @@
   box-shadow: 0 0 30px rgba(127, 90, 240, 0.5);
 }
 
-/* === Floating Card Effect === */
 @keyframes float {
   0% {
     transform: translateY(0px);
@@ -144,7 +135,6 @@
   }
 }
 
-/* === Sparkle Animation === */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -159,3 +149,4 @@
     opacity: 0.8;
   }
 }
+
