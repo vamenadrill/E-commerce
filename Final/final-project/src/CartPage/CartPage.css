@@ -1,17 +1,16 @@
-/* خلفية الصفحة بتدرج ناعم */
 .cart-page {
   background: linear-gradient(to right, #e0eafc04, #cfdef32a);
   min-height: 100vh;
   padding-top: 60px;
 }
 
-/* كرت المنتج داخل السلة */
+
 .cart-item-card {
   border-radius: 16px;
   overflow: hidden;
   background-color: transparent;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
-  backdrop-filter: blur(6px); /* تأثير زجاجي */
+  backdrop-filter: blur(6px); 
   transition: all 0.3s ease-in-out;
 }
 
@@ -20,7 +19,7 @@
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* صورة المنتج */
+
 .card-img-top {
   background-color: transparent;
   padding: 20px;
@@ -29,7 +28,7 @@
   border-bottom: 1px solid #e9ecef;
 }
 
-/* جسم الكرت */
+
 .card-body {
   padding: 20px;
   display: flex;
@@ -37,7 +36,7 @@
   justify-content: space-between;
 }
 
-/* عنوان المنتج */
+
 .card-title {
   font-size: 1.05rem;
   font-weight: 700;
@@ -46,15 +45,12 @@
   min-height: 48px;
 }
 
-/* السعر */
 .card-text {
   font-size: 1.2rem;
   font-weight: 600;
   color: #28a745;
   margin-bottom: 15px;
 }
-
-/* زر الحذف */
 .btn-outline-danger {
   border-radius: 50px;
   font-weight: 500;
@@ -67,3 +63,4 @@
   color: white;
   transform: scale(1.05);
 }
+
