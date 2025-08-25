@@ -51,7 +51,6 @@ function ProductDetails() {
       <div className="product-background" />
 
       <div className="product-container">
-        {/* Image Section */}
         <div className="product-image-section">
           <div className="image-wrapper">
             <img
@@ -63,7 +62,6 @@ function ProductDetails() {
           </div>
         </div>
 
-        {/* Info Section */}
         <div className="product-info-section">
           <h1 className="product-name">{product.title}</h1>
 
@@ -97,7 +95,6 @@ function ProductDetails() {
   );
 }
 
-// Skeleton Component
 const LoadingSkeleton = () => (
   <div className="loading-skeleton">
     <div className="skeleton-image"></div>
@@ -114,3 +111,4 @@ const LoadingSkeleton = () => (
 );
 
 export default ProductDetails;
+
